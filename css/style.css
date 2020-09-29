@@ -1,0 +1,320 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.color {
+    color: #8eb53e;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* nav bar */
+
+header {
+    width: 1140px;
+    height: 150px;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.navUL {
+    list-style-type: none;
+}
+
+.navLI {
+    margin: 30px 10px;
+    display: inline;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: Black;
+}
+
+/* end nav bar */
+
+/* hero */
+.hero {
+    width: 1140px;
+    height: 300px;
+    background: #8eb53e;
+    color: white;
+}
+
+.heroImg {
+    height: 100%;
+    width: 50%;
+    margin-left: 60px;
+    float: left;
+}
+
+.heroH {
+    height: 52%;
+    width: 33%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+/* end hero */
+
+/* business */
+
+.businessH {
+    width: 50%;
+    margin-left: 200px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px dashed #ccc;
+}
+
+.cover {
+    width: 1140px ;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.themes {
+    width: calc(100/4);
+    float: left;
+    padding-left: 0;
+    margin-left: 25px;
+}
+
+.themeImg {
+    margin: 20px;
+}
+
+.colorImgDiv {
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+    background: #8eb53e;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.imgDiv {
+    height: 150px;
+    width: 150px;
+    margin: 50px 50px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 50%;
+}
+
+.themes p {
+    text-align: center;
+    width: 25%;
+    margin-left: 75px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.bigText {
+    font-size: 20px;
+}
+
+/* end business */
+
+/* portfolio */
+.portH3div {
+    background: #ccc;
+    border-top: 2px dashed black;
+    height: 30px;
+}
+
+.portfolioH3 {
+    width: 22%;
+    margin-top: -15px;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+.portfolioCover {
+    height: 550px;
+    margin-top: 15px;
+    border-top: 2px dashed #ccc;
+}
+
+
+.portfolio {
+    width: 569px;
+    float: left;
+    margin: 20px 0;
+}
+
+.portfolioP, .imagedivP {
+    width: 45%;
+    float: left;
+}
+
+.portfolioP {
+    float: left;
+}
+
+.portfolio img {
+    padding-top: 10px;
+}
+
+.colorBox {
+    background: #8eb53e;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* end porfolio */
+
+/* advertisers */
+
+.advertisers {
+    display: inline-block;
+    border-top: 2px dashed #ccc;
+}
+
+.advertisersH3 {
+    width: 22%;
+    margin-top: -15px;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+.advertisersImg {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.backToTop {
+    margin-top: 50px;
+    float: right;
+    background: #8eb53e;
+    border: 1px solid #8eb53e;
+    border-radius: 50%;
+}
+
+.backToTop img {
+    border-radius: 50%;
+}
+
+/* end advertisers */
+
+/* footer */
+
+footer {
+    height: 350px;
+    width: 1140px;
+}
+
+footer h2, .copy li {
+    text-transform: uppercase;
+}
+
+.inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerInfo {
+    height: 350px;
+    width: 25%;
+    margin: 0 15px;
+    float: left;
+}
+
+.footerP {
+    margin-bottom: 50px;
+}
+
+.bold {
+    font-weight: 900;
+}
+/* archives */
+.footerULparent {
+    padding-left:0;
+    list-style-type: none;
+}
+
+.footerULparent li {
+    border-bottom: 1px solid gray;
+    box-shadow: darkgrey;
+    margin: 10px auto 15px;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+/* end archives */
+
+/* contact */
+.contactDiv ul {
+    padding-left: 0;
+}
+
+.contactDiv li {
+    margin-bottom: 20px;
+}
+
+/* end contact */
+
+/* newsletter */
+.form {
+    margin-bottom: 10px;
+}
+
+.formColor {
+    height: 30px;
+    width: 90%;
+    background: #F2F7F9;
+    border: 1px solid #eee;
+}
+
+.button {
+    margin: 10px 0 0 120px;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    background: #8eb53e;
+    color: white;
+}
+
+
+/* end newsletter */
+
+/* copy */
+.copy {
+    width: 1140px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    color: white;
+}
+
+.copy ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.copy li {
+    display: inline;
+}
+
+.copy a {
+    color: white;
+}
+/* end copy */
+
+/* end footer */
